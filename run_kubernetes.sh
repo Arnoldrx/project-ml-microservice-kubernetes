@@ -18,5 +18,5 @@ kubectl get nodes
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward pod/api-6555754fb5-dl5rg 8000:80
+kubectl port-forward pod/api-6555754fb5-4lfsg 8000:80
 
