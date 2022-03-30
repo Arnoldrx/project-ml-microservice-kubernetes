@@ -5,14 +5,18 @@
 # Step 1:
 # This is your Docker ID/path
 # dockerpath=<>
+dockerpath=arnoldrx/ml:api
 
 # Step 2
 # Run the Docker Hub container with kubernetes
+kubectl create deploy api --image=$dockerpath
 
 
 # Step 3:
 # List kubernetes pods
+kubectl get nodes
 
 # Step 4:
 # Forward the container port to a host
+kubectl port-forward pod/api-6555754fb5-dl5rg 8000:80
 
