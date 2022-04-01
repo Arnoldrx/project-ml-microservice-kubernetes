@@ -14,9 +14,9 @@ kubectl create deploy api --image=$dockerpath
 
 # Step 3:
 # List kubernetes pods
-kubectl get nodes
+kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward pod/api-6555754fb5-4lfsg 8000:80
+kubectl port-forward pod/api-6555754fb5-2rch5 8000:80
 

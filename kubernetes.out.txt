@@ -1,2 +1,5 @@
-Handling connection for 8000
+NAME                   READY   STATUS        RESTARTS   AGE
+api-6555754fb5-2rch5   1/1     Running       0          7m37s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
